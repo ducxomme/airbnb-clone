@@ -50,7 +50,8 @@ body {
     display: none;
     list-style: none;
     position: absolute;
-    min-width: 120px;
+    width: 130px;
+    min-width: 130px;
     border-radius: 12px;
     box-shadow: 0px 0px 5px 0.5px rgb(214, 210, 210);
     right: 10px;

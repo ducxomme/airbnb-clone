@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!---------------------- CSS ---------------------->
     <link rel="stylesheet" href="./style-component/header.css" />
+    <link rel="stylesheet" href="./style-component/search-booking.css">
+    <!------------------------------------------------->
+
+
   </head>
   <body>
+    <!--------------------- HEADER --------------------->
     <div class="header-container">
       <div class="favicon">
         <img src="./images/airbnb.svg" alt="Homepage">
@@ -30,7 +37,7 @@
               <a href="#">JPN</a>
             </div>
           </div>
-          
+
         </div>
         
         <ul class="navigation-menu">
@@ -44,17 +51,54 @@
 
       </div>
     </div>
+    <!---------------------END HEADER --------------------->
+    
+    
+    <!-- FORM SEARCH BOOKING -->
+    <div class="search-booking-container">
+      
+      <div class="search-booking-header">
+        <div class="search-booking-stays">Nơi ở</div>
+        <div class="search-booking-long-stays">Chỗ ở theo tháng</div>
+        <div class="search-booking-experiences">Trải nghiệm</div>
+        <div class="search-booking-online-exp">Trải nghiệm trực tuyến</div>
+        <div class="new-item">MỚI</div>
+      </div>
 
-    <!-- <div class="navigation-list">
-        <ul class="navigation-menu">
-            <li><a href="#">Cho thuê nhà</a></li>
-            <li><a href="#">Tổ chức trải nghiệm</a></li>
-            <li><a href="#">Trợ giúp</a></li>
-            <li><a href="#">Đăng nhập</a></li>
-          </ul>
-          <div class="register-container">Đăng ký</div>
-    </div> -->
+      <div class="search-booking-form">
 
+        <div class="input-destination">
+          <div class="destination-title title">ĐỊA ĐIỂM</div>
+          <input type="text" placeholder="Bạn sắp đi đâu?" />
+        </div>
+
+        <div class="input-checkin-checkout">
+          <div class="checkin-checkout-title title">NHẬN PHÒNG/TRẢ PHÒNG</div>
+          <input type="text" placeholder="Thêm ngày" />
+        </div>
+
+        <div class="input-customer">
+          <div class="customer-title title">KHÁCH</div>
+          <input type="text" placeholder="Thêm khách" />
+        </div>
+
+        <div class="button-search">
+          <i class="fas fa-search"></i>
+          <div class="search-text">Tìm kiếm</div>
+        </div>
+        
+      </div>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <script
       src="https://kit.fontawesome.com/ed87dc4cd2.js"
       crossorigin="anonymous"

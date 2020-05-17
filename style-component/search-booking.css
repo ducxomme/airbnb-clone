@@ -1,0 +1,83 @@
+.search-booking-container {
+    font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+    padding: 25px 60px;
+    /* font-size: 14px; */
+}
+
+/* ------------HEADER------------ */
+.search-booking-header {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.search-booking-header div {
+    margin-right: 15px;
+}
+
+.search-booking-header .search-booking-stays {
+    border-bottom: 1px solid #000000;
+    border-width: 2px;
+}
+
+.search-booking-header .search-booking-online-exp {
+    margin-right: 5px;
+}
+.search-booking-header .new-item {
+    padding: 2px 4px;
+    background-color: #FF385D;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 10px;
+}
+/* -------------------------------- */
+
+
+/* -----------SEARCH FORM----------- */
+.search-booking-form {
+    color: rgb(34, 34, 34);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e6e4e4;
+    border-radius: 15px;
+    font-size: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);;
+}
+
+.search-booking-form > div {
+    margin: 8px 10px;
+}
+
+.search-booking-form .title {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.search-booking-form input[type=text] {
+    border: 0;
+    border-width: 0px;
+    margin-top: 5px;
+}
+
+/* select first 3 div except search button */
+.search-booking-form > div:nth-child(-n+3) {
+    flex-grow: 2;
+}
+
+.search-booking-form > div:nth-child(-n+2) {
+    border-right: 1px solid #c4c2c2;
+}
+
+.search-booking-form .button-search {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 18px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background: linear-gradient(0deg, rgba(230,30,77) 0%, rgba(227,28,95) 50%, rgba(215,4,102) 100%);
+}
+
+/* -------------------------------- */
