@@ -3,6 +3,7 @@
     sans-serif;
   display: flex;
   padding: 0px 60px;
+  padding-bottom: 60px;
   /* grid-template-columns: 1fr 1fr; */
 }
 

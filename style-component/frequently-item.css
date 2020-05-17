@@ -1,0 +1,45 @@
+.frequently-update-container {
+    padding: 80px 80px;
+    background-color: rgb(247, 247, 247);
+}
+
+.frequently-update-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.frequently-list-for {
+    display: flex;
+    flex-direction: row;
+}
+
+.frequently-list-container {
+    padding-top: 40px;
+    padding-right: 10px;
+    flex-grow: 1;
+}
+
+.frequently-list-container .frequently-header {
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+.frequently-item-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    cursor: pointer;
+    border-top: 1px solid rgb(221, 221, 221);
+    padding: 7px 0;
+}
+
+.frequently-item-container .frequently-item-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(34, 34, 34);
+}
+
+.frequently-item-container .frequently-item-description {
+    font-size: 13px;
+    color: rgb(113, 113, 113);
+}
