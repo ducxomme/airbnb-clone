@@ -1,0 +1,18 @@
+.linear-gradient-text {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 60px;
+  width: 50%;
+}
+
+.linear-gradient-text h1 {
+  color: transparent;
+  background: linear-gradient(
+    to right,
+    rgb(146, 23, 77) 9.38%,
+    rgb(228, 29, 92) 88.54%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
