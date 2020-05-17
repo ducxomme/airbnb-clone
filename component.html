@@ -7,26 +7,24 @@
 
     <!---------------------- CSS ---------------------->
     <link rel="stylesheet" href="./style-component/header.css" />
-    <link rel="stylesheet" href="./style-component/search-booking.css">
+    <link rel="stylesheet" href="./style-component/search-booking.css" />
+    <link rel="stylesheet" href="./style-component/card-item.css" />
     <!------------------------------------------------->
-
-
   </head>
   <body>
     <!--------------------- HEADER --------------------->
     <div class="header-container">
       <div class="favicon">
-        <img src="./images/airbnb.svg" alt="Homepage">
+        <img src="./images/airbnb.svg" alt="Homepage" />
       </div>
 
       <div class="navigation-container">
-        
         <div class="language-currency-setting-dropdown">
           <div class="language-currency">
             <i class="fas fa-globe"></i>
             <i class="fas fa-angle-down"></i>
           </div>
-            
+
           <div class="language-currency-list">
             <div class="language-option">
               <i class="fas fa-globe"></i>
@@ -37,9 +35,8 @@
               <a href="#">JPN</a>
             </div>
           </div>
-
         </div>
-        
+
         <ul class="navigation-menu">
           <li><a href="#">Cho thuê nhà</a></li>
           <li><a href="#">Tổ chức trải nghiệm</a></li>
@@ -48,15 +45,12 @@
         </ul>
 
         <div class="register-container">Đăng ký</div>
-
       </div>
     </div>
     <!---------------------END HEADER --------------------->
-    
-    
-    <!-- FORM SEARCH BOOKING -->
+
+    <!-------------- FORM SEARCH BOOKING -------------->
     <div class="search-booking-container">
-      
       <div class="search-booking-header">
         <div class="search-booking-stays">Nơi ở</div>
         <div class="search-booking-long-stays">Chỗ ở theo tháng</div>
@@ -66,7 +60,6 @@
       </div>
 
       <div class="search-booking-form">
-
         <div class="input-destination">
           <div class="destination-title title">ĐỊA ĐIỂM</div>
           <input type="text" placeholder="Bạn sắp đi đâu?" />
@@ -86,19 +79,56 @@
           <i class="fas fa-search"></i>
           <div class="search-text">Tìm kiếm</div>
         </div>
-        
       </div>
-    
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <!-------------------------------------------->
+
+    <!-- CARD IN BODY -->
+    <div class="card-list-container">
+
+      <div class="card-item-container">
+        <div class="card-image-container">
+          <div class="new-item">MỚI</div>
+          <div class="card-image first"></div>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-content-header">Trải nghiệm trực tuyến</div>
+          <div class="card-content-description">
+            Các hoạt động độc đáo mà chúng ta có thể cùng nhau trải nghiệm, dưới
+            sự dẫn dắt của rất nhiều người tổ chức.
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item-container">
+        <div class="card-image-container">
+          <!-- <div class="new-item">MỚI</div> -->
+          <div class="card-image second"></div>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-content-header">Chỗ ở theo tháng</div>
+          <div class="card-content-description">Biến Airbnb trở thành nhà của bạn với thời gian ở kéo dài từ một tháng trở lên.
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item-container">
+        <div class="card-image-container">
+          <div class="new-item">MỚI</div>
+          <div class="card-image third"></div>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-content-header">Chỗ ở tại tuyến đầu</div>
+          <div class="card-content-description">Tìm hoặc cung cấp chỗ ở cho lực lượng tuyến đầu phòng chống COVID-19.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
     <script
       src="https://kit.fontawesome.com/ed87dc4cd2.js"
       crossorigin="anonymous"
