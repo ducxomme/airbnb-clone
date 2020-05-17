@@ -1,0 +1,35 @@
+.footer-container {
+    display: flex;
+    padding: 20px 60px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-container .copy-right {
+    margin-right: 5px;
+}
+
+.footer-left-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-right-container {
+    display: flex;
+}
+
+.footer-right-container a {
+    margin-right: 20px;
+}
+
+.footer-right-container .social-group {
+    margin-left: 20px;
+}
+
+.language-currency span {
+    margin: 0 3px;
+    text-decoration: underline;
+}

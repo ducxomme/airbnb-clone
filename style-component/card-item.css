@@ -40,7 +40,7 @@
 
 .card-image-container .card-image {
     width: auto;
-    height: 250px;
+    height: 300px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: 100% 100%;
@@ -63,7 +63,7 @@
 .card-item-container .card-content-container {
     display: flex;
     flex-direction: column;
-    padding: 5px 7px;
+    padding: 10px 12px;
 }
 
 .card-content-container .card-content-header {
