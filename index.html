@@ -1,29 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nơi nghỉ dưỡng, nhà, trải nghiệm và địa điểm vui chơi - Airbnb</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Nơi nghỉ dưỡng, nhà, trải nghiệm và địa điểm vui chơi - Airbnb
+    </title>
+    <link rel="icon" href="./images/favicon.png">
+    <!---------------------- CSS ---------------------->
     <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="wrapper-container">
-        <div class="header-container">
+    <link rel="stylesheet" href="./style-component/header.css" />
+    <link rel="stylesheet" href="./style-component/search-booking.css" />
+    <link rel="stylesheet" href="./style-component/card-item.css" />
+    <link rel="stylesheet" href="./style-component/help-section.css" />
+    <link rel="stylesheet" href="./style-component/frequently-item.css" />
+    <link rel="stylesheet" href="./style-component/introdution.css" />
+    <link rel="stylesheet" href="./style-component/footer.css" />
+    <link rel="stylesheet" href="./style-component/linear-gradient-text.css" />
+    <link
+      rel="stylesheet"
+      href="./style-component/introduce-online-experience.css"
+    />
+    <!------------------------------------------------->
+  </head>
 
+  <body>
+    <!--------------------- HEADER --------------------->
+    <div class="header-container">
+      <div class="favicon">
+        <img src="./images/airbnb.svg" alt="Homepage" />
+      </div>
+
+      <div class="navigation-container">
+        <div class="language-currency-setting-dropdown">
+          <div class="language-currency">
+            <i class="fas fa-globe"></i>
+            <i class="fas fa-angle-down"></i>
+          </div>
+
+          <div class="language-currency-list">
+            <div class="language-option">
+              <i class="fas fa-globe"></i>
+              <a href="#">Việt Nam</a>
+            </div>
+            <div class="currency-option">
+              <i class="fas fa-yen-sign"></i>
+              <a href="#">JPN</a>
+            </div>
+          </div>
         </div>
 
-        <div class="main-container">
+        <ul class="navigation-menu">
+          <li><a href="#">Cho thuê nhà</a></li>
+          <li><a href="#">Tổ chức trải nghiệm</a></li>
+          <li><a href="#">Trợ giúp</a></li>
+          <li><a href="#">Đăng nhập</a></li>
+        </ul>
 
-        </div>
-
-        <div class="footer-container">
-
-        </div>
-
+        <div class="register-container">Đăng ký</div>
+      </div>
     </div>
+    <!---------------------END HEADER --------------------->
+
+    <!-------------- FORM SEARCH BOOKING -------------->
+    <div class="search-booking-container">
+      <div class="search-booking-header">
+        <div class="search-booking-stays">Nơi ở</div>
+        <div class="search-booking-long-stays">Chỗ ở theo tháng</div>
+        <div class="search-booking-experiences">Trải nghiệm</div>
+        <div class="search-booking-online-exp">Trải nghiệm trực tuyến</div>
+        <div class="new-item">MỚI</div>
+      </div>
+
+      <div class="search-booking-form">
+        <div class="input-destination">
+          <div class="destination-title title">ĐỊA ĐIỂM</div>
+          <input type="text" placeholder="Bạn sắp đi đâu?" />
+        </div>
+
+        <div class="input-checkin-checkout">
+          <div class="checkin-checkout-title title">NHẬN PHÒNG/TRẢ PHÒNG</div>
+          <input type="text" placeholder="Thêm ngày" />
+        </div>
+
+        <div class="input-customer">
+          <div class="customer-title title">KHÁCH</div>
+          <input type="text" placeholder="Thêm khách" />
+        </div>
+
+        <div class="button-search">
+          <i class="fas fa-search"></i>
+          <div class="search-text">Tìm kiếm</div>
+        </div>
+      </div>
+    </div>
+    <!--------------END FORM SEARCH BOOKING--------->
+
+    <!----------------LINEAR TEXT ---------------->
+    <div class="linear-gradient-text">
+      <h1>
+        Chúng ta có thể không ở gần nhau, nhưng chúng ta sẽ cùng nhau vượt qua
+        khó khăn này.
+      </h1>
+    </div>
+    <!----------------END LINEAR TEXT ---------------->
+
+    <!-------------- CARD IN BODY -------------->
+    <div class="card-list-container">
+      <div class="card-item-container">
+        <div class="card-image-container">
+          <div class="new-item">MỚI</div>
+          <div class="card-image first"></div>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-content-header">Trải nghiệm trực tuyến</div>
+          <div class="card-content-description">
+            Các hoạt động độc đáo mà chúng ta có thể cùng nhau trải nghiệm, dưới
+            sự dẫn dắt của rất nhiều người tổ chức.
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item-container">
+        <div class="card-image-container">
+          <!-- <div class="new-item">MỚI</div> -->
+          <div class="card-image second"></div>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-content-header">Chỗ ở theo tháng</div>
+          <div class="card-content-description">
+            Biến Airbnb trở thành nhà của bạn với thời gian ở kéo dài từ một
+            tháng trở lên.
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item-container">
+        <div class="card-image-container">
+          <div class="new-item">MỚI</div>
+          <div class="card-image third"></div>
+        </div>
+
+        <div class="card-content-container">
+          <div class="card-content-header">Chỗ ở tại tuyến đầu</div>
+          <div class="card-content-description">
+            Tìm hoặc cung cấp chỗ ở cho lực lượng tuyến đầu phòng chống
+            COVID-19.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------- END CARD IN BODY-------------->
+
+    <!------Introduce online experiences section------>
+    <div class="introduce-online-container">
+      <div class="introduce-top-container">
+        <div class="section-top-left">
+          <div class="top-title">
+            Giới thiệu Trải nghiệm trực tuyến
+          </div>
+          <div class="top-description">
+            Giờ đây, bạn có thể gặp gỡ mọi người trên khắp thế giới và thử làm
+            những điều mới mẻ cùng một lúc. Tham gia các phiên video tương tác
+            trực tiếp do những chuyên gia tổ chức trải nghiệm dẫn dắt – trải
+            nghiệm mọi hoạt động mà không cần rời khỏi nhà.
+          </div>
+        </div>
+
+        <div class="section-top-right">
+          <div class="discover-all">Khám phá tất cả</div>
+        </div>
+      </div>
+
+      <div class="introduce-card-container">
+        <div class="card-item-container-left">
+          <div class="card-item-container">
+            <div class="card-image-container">
+              <div class="card-image a-half"></div>
+            </div>
+            <div class="card-content-container">
+              <div class="card-content-header text-white">Chỗ ở theo tháng</div>
+              <div class="card-content-description text-white">
+                Biến Airbnb trở thành nhà của bạn với thời gian ở kéo dài từ một
+                tháng trở lên.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-item-container-right">
+          <div class="cards-top-right">
+            <div class="card-item-container">
+              <div class="card-image-container">
+                <div class="card-image a-quarter-first"></div>
+              </div>
+              <div class="card-content-container">
+                <div class="card-content-header text-white">
+                  Chỗ ở theo tháng
+                </div>
+                <div class="card-content-description text-white">
+                  Biến Airbnb trở thành nhà của bạn với thời gian ở kéo dài từ
+                  một tháng trở lên.
+                </div>
+              </div>
+            </div>
+
+            <div class="card-item-container">
+              <div class="card-image-container">
+                <div class="card-image a-quarter-second"></div>
+              </div>
+              <div class="card-content-container">
+                <div class="card-content-header text-white">
+                  Chỗ ở theo tháng
+                </div>
+                <div class="card-content-description text-white">
+                  Biến Airbnb trở thành nhà của bạn với thời gian ở kéo dài từ
+                  một tháng trở lên.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-right-bottom">
+            <div class="card-item-container">
+              <div class="card-image-container">
+                <div class="card-image a-half-of-half"></div>
+              </div>
+              <div class="card-content-container">
+                <div class="card-content-header text-white">
+                  Chỗ ở theo tháng
+                </div>
+                <div class="card-content-description text-white">
+                  Biến Airbnb trở thành nhà của bạn với thời gian ở kéo dài từ
+                  một tháng trở lên.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------End Introduce online experiences section----->
+
+    <!----------------  Help section --------------->
+    <div class="help-section-container">
+      <div class="help-section-left">
+        <div class="help-section-content">
+          Đón tiếp một anh hùng: hãy giúp chúng tôi cung cấp chỗ ở cho lực lượng
+          ứng phó tại tuyến đầu trên toàn thế giới
+        </div>
+        <div class="help-join-button">Tham gia</div>
+      </div>
+
+      <div class="help-section-right">
+        Với chỗ ở cho tuyến đầu, Airbnb đang hợp tác với các chủ nhà để giúp
+        100.000 nhà cung cấp dịch vụ y tế, nhân viên cứu trợ và nhân viên thuộc
+        lực lượng tuyến đầu tìm được chỗ ở cho phép họ ở gần bệnh nhân và giữ
+        khoảng cách an toàn với gia đình.
+      </div>
+    </div>
+    <!-------------End Help section--------------->
+
+    <!----------Frequently update section---------->
+    <div class="frequently-update-container">
+      <div class="frequently-update-title">
+        Cập nhập thường xuyên
+      </div>
+
+      <div class="frequently-list-for">
+        <div class="frequently-list-container">
+          <div class="frequently-header">
+            Dành cho khách
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Thông tin đi lại cần nhập
+            </div>
+            <div class="frequently-item-description">
+              Thông tin bạn cần biết
+            </div>
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Tuỳ chọn huỷ
+            </div>
+            <div class="frequently-item-description">
+              Tìm hiểu các nội dung được đề cập
+            </div>
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Trung tâm trợ giúp
+            </div>
+            <div class="frequently-item-description">
+              Nhận hỗ trợ
+            </div>
+          </div>
+        </div>
+
+        <div class="frequently-list-container">
+          <div class="frequently-header">
+            Dành cho khách
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Thông tin đi lại cần nhập
+            </div>
+            <div class="frequently-item-description">
+              Thông tin bạn cần biết
+            </div>
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Tuỳ chọn huỷ
+            </div>
+            <div class="frequently-item-description">
+              Tìm hiểu các nội dung được đề cập
+            </div>
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Trung tâm trợ giúp
+            </div>
+            <div class="frequently-item-description">
+              Nhận hỗ trợ
+            </div>
+          </div>
+        </div>
+
+        <div class="frequently-list-container">
+          <div class="frequently-header">
+            Dành cho khách
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Thông tin đi lại cần nhập
+            </div>
+            <div class="frequently-item-description">
+              Thông tin bạn cần biết
+            </div>
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Tuỳ chọn huỷ
+            </div>
+            <div class="frequently-item-description">
+              Tìm hiểu các nội dung được đề cập
+            </div>
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Trung tâm trợ giúp
+            </div>
+            <div class="frequently-item-description">
+              Nhận hỗ trợ
+            </div>
+          </div>
+        </div>
+
+        <div class="frequently-list-container">
+          <div class="frequently-header">
+            Dành cho khách
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Thông tin đi lại cần nhập
+            </div>
+            <div class="frequently-item-description">
+              Thông tin bạn cần biết
+            </div>
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Tuỳ chọn huỷ
+            </div>
+            <div class="frequently-item-description">
+              Tìm hiểu các nội dung được đề cập
+            </div>
+          </div>
+
+          <div class="frequently-item-container">
+            <div class="frequently-item-title">
+              Trung tâm trợ giúp
+            </div>
+            <div class="frequently-item-description">
+              Nhận hỗ trợ
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------End Frequently update section-------->
+
+    <!------------introdution section ------------>
+    <div class="introdution-section-container">
+      <div class="introdution-container">
+        <div class="introdution-title"><h4>GIỚI THIỆU</h4></div>
+
+        <div class="introdution-list">
+          <div class="introdution-item">
+            <a href="#"> Sự đa dạng và Cảm giác thân thuộc</a>
+          </div>
+          <div class="introdution-item">
+            <a href="#">Tiện nghi phù hợp cho người khuyết tật</a>
+          </div>
+          <div class="introdution-item"><a href="#">Tin cậy và an toàn</a></div>
+          <div class="introdution-item"><a href="#">Airbnb Citizen</a></div>
+          <div class="introdution-item"><a href="#">Trang tin tức</a></div>
+        </div>
+      </div>
+
+      <div class="introdution-container">
+        <div class="introdution-title"><h4>GIỚI THIỆU</h4></div>
+
+        <div class="introdution-list">
+          <div class="introdution-item">
+            <a href="#"> Sự đa dạng và Cảm giác thân thuộc</a>
+          </div>
+          <div class="introdution-item">
+            <a href="#">Tiện nghi phù hợp cho người khuyết tật</a>
+          </div>
+          <div class="introdution-item"><a href="#">Tin cậy và an toàn</a></div>
+          <div class="introdution-item"><a href="#">Airbnb Citizen</a></div>
+          <div class="introdution-item"><a href="#">Trang tin tức</a></div>
+        </div>
+      </div>
+
+      <div class="introdution-container">
+        <div class="introdution-title"><h4>GIỚI THIỆU</h4></div>
+
+        <div class="introdution-list">
+          <div class="introdution-item">
+            <a href="#"> Sự đa dạng và Cảm giác thân thuộc</a>
+          </div>
+          <div class="introdution-item">
+            <a href="#">Tiện nghi phù hợp cho người khuyết tật</a>
+          </div>
+          <div class="introdution-item"><a href="#">Tin cậy và an toàn</a></div>
+          <div class="introdution-item"><a href="#">Airbnb Citizen</a></div>
+          <div class="introdution-item"><a href="#">Trang tin tức</a></div>
+        </div>
+      </div>
+
+      <div class="introdution-container">
+        <div class="introdution-title"><h4>GIỚI THIỆU</h4></div>
+
+        <div class="introdution-list">
+          <div class="introdution-item">
+            <a href="#"> Sự đa dạng và Cảm giác thân thuộc</a>
+          </div>
+          <div class="introdution-item">
+            <a href="#">Tiện nghi phù hợp cho người khuyết tật</a>
+          </div>
+          <div class="introdution-item"><a href="#">Tin cậy và an toàn</a></div>
+          <div class="introdution-item"><a href="#">Airbnb Citizen</a></div>
+          <div class="introdution-item"><a href="#">Trang tin tức</a></div>
+        </div>
+      </div>
+    </div>
+    <!------------End introdution section ------------>
+
+    <!--------------------- FOOTER ------------------->
+    <div class="footer-container">
+      <div class="footer-left-container">
+        <div class="copy-right">
+          <i class="far fa-copyright">
+            2020 Airbnb, Inc. All rights reserved
+          </i>
+        </div>
+        <div class="detail-item-list">
+          &#5867;
+          <a href="#">Quyền riêng tư</a>
+
+          &#5867;
+          <a href="#">Điều khoản</a>
+
+          &#5867;
+          <a href="#">Sơ đồ trang web</a>
+        </div>
+      </div>
+
+      <div class="footer-right-container">
+        <div class="language-currency">
+          <a href="#">
+            <span class="language-icon"><i class="fas fa-globe"></i></span>
+            <span class="language-name">Tiếng Việt</span>
+          </a>
+          <a href="#">
+            <span class="currency-icon"><i class="fas fa-yen-sign"></i></span>
+            <span class="currency-name">JPY</span>
+          </a>
+        </div>
+
+        <div class="social-group">
+          <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+          <a href="" class="instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <!------------------- END FOOTER ----------------->
+
     <script
       src="https://kit.fontawesome.com/ed87dc4cd2.js"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>

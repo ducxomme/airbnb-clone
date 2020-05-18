@@ -1,0 +1,128 @@
+.introduce-online-container {
+    background-color: #000000;
+    color: #FFFFFF;
+    justify-content: space-between;
+    padding: 40px 60px;
+    margin-bottom: 40px;
+}
+.introduce-top-container {
+    display: flex;
+}
+
+.section-top-left .top-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.section-top-left .top-description {
+    font-size: 15px;
+    margin-top: 5px;
+    max-width: 850px;
+    width: 75%;
+}
+.introduce-top-container .section-top-left {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.introduce-top-container .section-top-right {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.section-top-right .discover-all {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+
+/*---------------CARD---------------  */
+
+.introduce-card-container {
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.introduce-card-container > div {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.introduce-card-container .card-item-container-left {
+    margin-right: 10px;
+}
+
+.introduce-card-container .card-item-container {
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+}
+.introduce-card-container .card-image {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: 100% 100%;
+}
+
+.card-item-container-left .a-half {
+    background-image: url("../images/left-1-2.jpg");
+    height: 800px;
+}
+
+/* .card-item-container-left .card-item-container {
+    display: flex;
+} */
+
+.card-item-container-right {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .card-item-container-right > div {
+    flex-grow: 1;
+    flex-basis: 0;
+} */
+
+
+.card-item-container-right .a-quarter-first {
+    background-image: url("../images/right-1-4-1.jpg");
+    height: 350px;
+}
+
+.card-item-container-right .a-quarter-second {
+    background-image: url("../images/right-1-4-2.jpg");
+    height: 350px;
+}
+
+.card-item-container-right .a-half-of-half {
+    background-image: url("../images/right-1-2.jpg");
+    height: 350px;
+}
+
+.card-item-container-right .cards-top-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-item-container-right .cards-top-right > div {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.card-content-container div.text-white {
+    color: #FFFFFF !important;
+}
+
+.introduce-online-container .card-content-container {
+    background-color: #222222 !important;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-right-bottom .card-image-container {
+    margin-top: 10px;
+}

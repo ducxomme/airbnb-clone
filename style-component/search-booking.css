@@ -15,6 +15,11 @@
     margin-right: 15px;
 }
 
+.search-booking-header div:hover {
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
 .search-booking-header .search-booking-stays {
     border-bottom: 1px solid #000000;
     border-width: 2px;

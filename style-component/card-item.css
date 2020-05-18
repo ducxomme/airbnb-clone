@@ -17,7 +17,7 @@
     flex-direction: column;
     border: 1px solid rgb(297, 297, 297);
     box-shadow: -5px 4px 8px rgba(0, 0, 0, 0.08);
-    margin: 5px 5px;
+    margin: 0 5px;
     cursor: pointer;
 }
 
